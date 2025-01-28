@@ -1,4 +1,5 @@
 from decouple import config, Csv
+DEBUG = False
 DATABASES = {
     'default': {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
